@@ -1,0 +1,96 @@
+html{font-size:62.5%; /* 10÷16=62.5% */}
+
+
+#menu { position: fixed; right: 5%; top: 60%; width: 10px; margin: -160px 0 0; padding: 0; list-style-type: none; z-index: 70;}
+#menu li { margin-top: 10px; font: 14px "Microsoft Yahei";}
+#menu a {border-radius:34px; display: block; padding: 5px 0; background-color:rgba(51, 38, 31, 0.91); color: #0074EA; text-align: center; text-decoration: none;}
+#menu .active a { color: #fff; background-color:#ffffff;}
+.section { text-align: center; font: 18px "Microsoft Yahei"; color: #fff;}
+.section1 { background: url(./img/bg1.png) 50% no-repeat;}
+img,iframe {max-width:100%;box-sizing:border-box;} 
+.screen-main { position: relative; width: 1280px; height: 100%; margin: 0 auto;}
+.screen-main span { position: absolute;}
+.science-inner { position: relative; width: 1280px; height: 100%; margin: 0 auto; background: url(./img/bg2.png) 150% no-repeat; overflow: hidden;}
+.browser-inner { position: relative; width: 100%; height: 100%; margin: 0 auto; background: url(./img/bg5.png) 100% no-repeat; overflow: hidden;}
+.famous-inner { position: relative; width: 100%; height: 100%; margin: 0 auto; background: url(./img/bg3.png) 50% no-repeat; overflow: hidden;}
+.fast-inner { position: relative; width: 100%; height: 100%; margin: 0 auto; background: url(./img/bg6.png) 50% no-repeat; overflow: hidden;}
+.customized-inner{ position: relative; width: 100%; height: 100%; margin: 0 auto; background: url(./img/bg7.png) 50% no-repeat; overflow: hidden;}
+.face-inner { position: relative; width: 100%; height: 100%; margin: 0 auto; background: url(./img/bg8.png) 50% no-repeat; overflow: hidden;}
+.rich-inner { position: relative; width: 100%; height: 100%; margin: 0 auto; background: url(./img/bg9.png) 50% no-repeat; overflow: hidden;}
+.game-inner { position: relative; width: 100%; height: 100%; margin: 0 auto; background: url(./img/bg10.png) 50% no-repeat; overflow: hidden;}
+
+
+.screen-main .shi1 {color:#ffeeda; width: 550px; height: 75px;  z-index: 4; font-size: 18px;font-size:1.8rem; }
+
+.screen-main .ji1 {font-size: 27px; font-size:2.7rem;color:#ffffff;width: 360px; height: 90px; left: -327px; z-index: 2; top: -589px;  }
+
+.screen-main .ji3 { font-size: 27px;font-size:2.7rem;color:#ffffff;width: 835px; height: 293px; left: -244px; z-index: 2; top: -488px;  }
+
+
+
+.science-inner a { text-decoration: none; color: #5f5966; float: left; position: relative; display: inline-block; white-space: nowrap }
+.science-inner a:hover { color: #1c9cff }
+
+.science-inner .st13 {color: #ffffff; background-position: 0 -573px; padding-left: 47px ;font-size: 30px;font-size:3.0rem;}
+.science-inner .st14 { background-position: 0 -626px; padding-left: 47px; font-size: 24px;font-size:2.4rem; }
+
+.famous-inner a { text-decoration: none; color: #4e5f70; float: left; position: relative; display: inline-block; white-space: nowrap }
+.famous-inner a:hover { color: #ccfcff }
+
+
+.browser-inner a { text-decoration: none; color: #ffffff; float: left; position: relative; display: inline-block; white-space: nowrap }
+.browser-inner a:hover { color: #ccfcff }
+
+.browser-inner .bl1 {font-size: 27px ;font-size:2.7rem; color: #ffffff;background-position: 0 -520px; }
+.browser-inner .bl2 {font-size: 18px; font-size:1.8rem;color:#ccfcff;background-position: 0 -648px; }
+
+
+
+.fast-inner a { text-decoration: none; color: #ffffff; float: left; position: relative; display: inline-block; white-space: nowrap }
+.fast-inner a:hover { color: #ccfcff }
+
+.fast-inner .ft1 {font-size: 27px ;font-size:2.7rem; color: #ffffff;background-position: 0 -520px; }
+.fast-inner .ft2 {font-size: 18px; font-size:1.8rem;color:#9cbfff;background-position: 0 -648px; }
+
+
+
+.customized-inner a { text-decoration: none; color: #ffffff; float: left; position: relative;display: inline-block; white-space: nowrap }
+.customized-inner a:hover { color: #ccfcff }
+
+
+.customized-inner .cu1 {font-size: 27px ; font-size:2.7rem;color:#a9e4f2;background-position: 0 -520px; }
+
+
+.face-inner a { text-decoration: none; color: #ffffff; float: left;position: relative;display: inline-block; white-space: nowrap }
+.face-inner a:hover { color: #ccfcff }
+
+.face-inner  .fc1 {font-size: 30px ;font-size:3.0rem; color: #ffffff;background-position: 0 -520px; }
+.face-inner  .fc2 {font-size: 20px;font-size:2.0rem; color:#ffffff;background-position: 0 -648px; }
+
+.game-inner a { text-decoration: none; color: #ffffff; float: left;position: relative;display: inline-block; white-space: nowrap }
+.game-inner a:hover { color: #ccfcff }
+
+.game-inner .gm1 {font-size: 27px ;font-size:2.7rem; color: #08134c;background-position: 0 -520px; }
+
+
+.rich-inner a { text-decoration: none; color: #ffffff; float: left; position: relative;display: inline-block; white-space: nowrap }
+.rich-inner a:hover { color: #ccfcff }
+
+.rich-inner  .r1 {font-size: 30px ; font-size:3.0rem;color: #c4f4ff;background-position: 0 -520px; }
+.rich-inner  .r2 {font-size: 22px; font-size:2.2rem;color:#c4f4ff;background-position: 0 -648px; }
+.rich-inner  .r3 {font-size: 18px ; font-size:1.8rem;color:#c4f4ff;background-position: 0 -700px; }
+.rich-inner  .r4 {font-size: 22px ; font-size:2.2rem;color:#c4f4ff;background-position: 0 -740px; }
+.rich-inner  .r5 {font-size: 18px ; font-size:1.8rem;color: #c4f4ff;background-position: 0 -780px; }
+.rich-inner  .r6 {font-size: 22px ; font-size:2.2rem;color: #c4f4ff;background-position: 0 -820px; }
+.rich-inner  .r7 {font-size: 18px ;font-size:1.8rem; color: #c4f4ff;background-position: 0 -860px; }
+
+
+
+
+.rich-inner .dbbj{position: absolute;width: 100%;background-color: black; filter:alpha(opacity=50); /*IE滤镜，透明度50%*/
+-moz-opacity:0.5; /*Firefox私有，透明度50%*/
+opacity:0.8;/*其他，透明度50%*/height:100%;top:90%;text-align: center; }
+
+.rich-inner .fa5 { color: #ffffff; font-size: 14px ;font-size:1.4rem;}
+
+

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <style>a{TEXT-DECORATION: none}</style>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0 , maximum-scale=1.0, user-scalable=0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" /> 
+        <title>和纬科技官方网站</title>
+        <meta name="keywords" content="和纬科技官方网站,多国语言,联想多国语言,小米多国语言,三五码多国语言">
+        <meta name="description" content="和纬科技官方网站。">
+
+        <!-- Bootstrap -->
+       <style type="text/css">  
+img{ max-width:100%;}  
+video{ max-width:100%; height:auto;}  
+header ul li{ float:left; list-style:none; list-style-type:none; margin-right:10px;}  
+header select{display:none;}  
+@media (max-width:960px){  
+    header ul{ display:none;}  
+    header select{ display:inline-block;}  
+}  
+</style> 
+
+        <style>
+            .item img {margin: 0 auto;}
+        </style>
+        <!-- util.css-->
+      
+		 <link href="./4_files/sycd.css" rel="stylesheet">
+          <link href="./4_files/util.css" rel="stylesheet">
+
+<link rel="stylesheet" href="./4_files/jquery.fullPage.css">
+<link rel="stylesheet" href="./4_files/style.css">
+<script src="./4_files/jquery-1.8.3.min.js"></script>
+<script src="./4_files/jquery-ui-1.10.3.min.js"></script>
+<script src="./4_files/jquery.fullPage.min.js"></script>
+<script>
+$(document).ready(function() {
+	$.fn.fullpage({
+		slidesColor: ['#070B09', '#C7B3A8', '#9DA4B0', '#E9E9E9', '#F3F3F3', '#F9F3DC','#F3F3F3',],
+		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7',],
+		menu: '#menu',
+		afterRender: function(){
+			$('.screen-main span').each(function(){
+				var $rel = $(this).attr('rel');
+				var $arr = $rel.split(',');
+				$(this).animate({
+					left: $arr[2] + 'px',
+					top: $arr[3] + 'px'
+				}, 500);
+			});
+			$('.inner a').each(function(){
+				var $rel = $(this).attr('rel');
+				var $arr = $rel.split(',');
+				$(this).animate({
+					left: $arr[0] + 'px',
+					top: $arr[1] + 'px'
+				}, 500);
+			});
+		},
+		afterLoad: function(anchorLink, index){
+			if(index == 1){
+				$('.screen-main span').each(function(){
+					var $rel = $(this).attr('rel');
+					var $arr = $rel.split(',');
+					$(this).animate({
+						left: $arr[2] + 'px',
+						top: $arr[3] + 'px'
+					}, 500);
+				});
+			}
+			if(index == 2 || index == 3 || index == 4 || index == 5|| index == 6|| index == 7){
+				$('.inner').eq(index - 2).find('a').each(function(){
+					var $rel = $(this).attr('rel');
+					var $arr = $rel.split(',');
+					$(this).animate({
+						left: $arr[2] + 'px',
+						top: $arr[3] + 'px'
+					}, 500);
+				});
+			}
+			if(index == 8){
+				$('.zanzhu-con a').fadeIn(1000);
+			}
+		},
+		onLeave: function(index, direction){
+			if(index == 1){
+				$('.screen-main span').each(function(){
+					var $rel = $(this).attr('rel');
+					var $arr = $rel.split(',');
+					$(this).animate({
+						left: $arr[0] + 'px',
+						top: $arr[1] + 'px'
+					}, 500);
+				});
+			}
+			if(index == 2 || index == 3 || index == 4 || index == 5|| index == 6|| index == 7){
+				$('.inner').eq(index - 2).find('a').each(function(){
+					var $rel = $(this).attr('rel');
+					var $arr = $rel.split(',');
+					$(this).animate({
+						left: $arr[0] + 'px',
+						top: $arr[1] + 'px'
+					}, 500);
+				});
+			}
+			if(index == 8){
+				$('.zanzhu-con a').fadeOut(1000);
+			}
+		}
+	});
+});
+</script>
+<!-- hwlang.com Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "//hm.baidu.com/hm.js?aca03b520a67ca02c11560ea375fc41f";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+
+<body>
+
+	<div class="bigwrap">
+  <div class="container">
+	<ul class="menu">
+    	  <li  style="width:35%;height:100%;background:url(./4_files/bj3.png) no-repeat 50% 13px  #292929;" ></li>
+		<li ><a href="index_EG.html">Home</a></li>
+	
+		</li>
+		<li ><a href="aboot_EG.html">About us</a>
+		</li>
+		<li ><a href="http://bbs.hwlang.com">bbs</a>
+		</li>
+		<li ><a href="index.html">Chinese</a>
+		</li>
+		
+      
+		
+	</ul>
+</div>
+	
+
+<ul id="menu">
+	<li data-menuanchor="page1" class="active"><a href="#page1"></a></li>
+	<li data-menuanchor="page2"><a href="#page2"></a></li>
+	<li data-menuanchor="page3"><a href="#page3"></a></li>
+	<li data-menuanchor="page4"><a href="#page4"></a></li>
+	<li data-menuanchor="page5"><a href="#page5"></a></li>
+</ul>
+
+<div class="section section1">
+	<div class="screen-main">
+		<span class="shi1"  rel="-501,-455,160,405" >Whole hearted interest for your service</span>
+		<span class="ji1"  rel="-328,-589,245,324">Excellent technical team</span>
+		<span class="ji3"  rel="-328,-589,3,367">Professional brush staff</span>
+		
+	</div>
+</div>
+<div class="section">
+	<div class="browser-inner inner">
+	
+		<a class="bl1" href="javascript:void(0)" rel="1370,383,530,233">Global Support 80% National Language Custom</a>
+		<a class="bl2" href="javascript:void(0)" rel="1370,450,223,270">Rapid development，Accurate And Accurate</a>
+		<a class="bl3" href="javascript:void(0)" rel="1370,550,80,330">Add To Multi System Language：</a>
+		<a class="brimg2" href="javascript:void(0)" rel="1370,203,120,233"><img width="250" height="400" src="./4_files/bj4.png"></a>
+		
+	</div>
+</div> 
+
+
+<div class="section">
+	<div class="customized-inner inner">
+	
+		<a class="cu1" href="javascript:void(0)" rel="370,550,895,225">Custom Belongs To You Android System</a>
+		<a class="cu1" href="javascript:void(0)" rel="370,300,400,275">Modify System Information</a>
+		<a class="cu1" href="javascript:void(0)" rel="370,123,1,175">Adaptation Mainstream Android System:MIUI,LeWa... </a>
+		<a class="cuimg2" href="javascript:void(0)" rel="980,87,160,150"><img width="620" height="520" src="./4_files/bj5.png"></a>
+		
+	</div>
+</div> 
+
+
+
+<div class="section">
+	<div class="face-inner inner">
+	
+		<a class="fc1" href="javascript:void(0)" rel="630,210,540,200">Add to GoogleGms，GooglePlay</a>
+		<a class="fc2" href="javascript:void(0)" rel="355,260,270,240">Foreign Trade Mobile Phone Necessary application</a>
+		<a class="cuimg2" href="javascript:void(0)" rel="355,280,20,240"><img width="620" height="310" src="./4_files/bj9.png"></a>
+	</div>
+</div> 
+
+
+
+<div class="section">
+	<div class="rich-inner inner">
+	
+		<a class="r1" href="javascript:void(0)" rel="650,160,780,210">Provide High Quality Android APP</a>
+			<a class="rimg1" href="http://bbs.hwlang.com/forum.php?mod=attachment&aid=Mnw0NDhmMzY4NXwxNDYwOTgyNjQ0fDF8NDA%3D" rel="-480,250,315,260"><img width="80" height="80" src="./1_files/bj6.png"></a>
+		<a class="rimg2" href="http://bbs.hwlang.com/forum.php?mod=attachment&aid=M3xkYTE1ZGM2YXwxNDYwOTgyNzQ3fDF8NDE%3D" rel="-370,250,415,260"><img width="80" height="80" src="./1_files/bj7.png"></a>
+		<a class="rimg3" href="http://bbs.hwlang.com/forum.php?mod=attachment&aid=NXw2NzIxNDQ5OXwxNDYwOTg2MDQ2fDF8NDM%3D" rel="-260,250,515,260"><img width="80" height="80" src="./1_files/bj8.png"></a>
+		<a class="r2" href="http://bbs.hwlang.com/forum.php?mod=attachment&aid=Mnw0NDhmMzY4NXwxNDYwOTgyNjQ0fDF8NDA%3D" rel="300,340,58,350">UC Browser</a>
+		<a class="r3" href="javascript:void(0)" rel="200,370,-40,385"></a>
+		<a class="r4" href="http://bbs.hwlang.com/forum.php?mod=attachment&aid=M3xkYTE1ZGM2YXwxNDYwOTgyNzQ3fDF8NDE%3D" rel="290,340,100,350">QR Code Scan</a>
+		<a class="r5" href="javascript:void(0)" rel="130,370,-135,385"></a>
+		<a class="r6" href="http://bbs.hwlang.com/forum.php?mod=attachment&aid=NXw2NzIxNDQ5OXwxNDYwOTg2MDQ2fDF8NDM%3D" rel="190,340,130,350">Clean Master</a>
+		<a class="r7" href="javascript:void(0)" rel="35,370,-250,385"></a>
+		<div class="dbbj">
+		<div>
+		
+
+	
+		<a class="faiteml fa5" href="javascript:void(0)" rel="420,25,620,25">Copyright @ Shenzhen HeWei Technology Co.,Ltd Official Web Copyright Network Filing License: No.粤ICP备14001112号-1 </a>
+		</div>
+	</div>
+	</div>
+</div>
+
+
+</body>
+</html>
